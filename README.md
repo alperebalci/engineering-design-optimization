@@ -1,4 +1,16 @@
-# Cantilever Beam Design Optimization
+# Engineering Design Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`highway-earthwork-optimization-dynamic-programming`](projects/highway-earthwork-optimization-dynamic-programming/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 This repository demonstrates constrained structural optimization of a cantilever beam using Python and SciPy.
 
