@@ -1,0 +1,13 @@
+schema_version: 1
+repository: engineering-design-optimization
+role: umbrella
+axis: application
+area: engineering-design
+status: active
+owner: jorsacademy
+projects:
+  - highway-earthwork-optimization-dynamic-programming
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
