@@ -1,5 +1,6 @@
 using JuMP
 using MadNLP
+import MathOptInterface as MOI
 
 length_beam = 10.0
 segments = 12
