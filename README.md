@@ -8,6 +8,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 ### Included projects
 
 - [`highway-earthwork-optimization-dynamic-programming`](projects/highway-earthwork-optimization-dynamic-programming/)
+- [`madnlp-tapered-beam-design-julia`](projects/madnlp-tapered-beam-design-julia/)
 
 Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
 <!-- portfolio-umbrella:end -->
