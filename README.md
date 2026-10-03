@@ -9,6 +9,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 
 - [`highway-earthwork-optimization-dynamic-programming`](projects/highway-earthwork-optimization-dynamic-programming/)
 - [`madnlp-tapered-beam-design-julia`](projects/madnlp-tapered-beam-design-julia/)
+- [`pymoo-multiobjective-beam-design`](projects/pymoo-multiobjective-beam-design/)
 
 Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
 <!-- portfolio-umbrella:end -->
@@ -49,6 +50,8 @@ Constraints:
 - Every segment height must remain within manufacturing/design bounds.
 
 The nonlinear constrained optimization problem is solved with SciPy's SLSQP algorithm.
+
+For a genuine multi-objective treatment of the same design family, see [`projects/pymoo-multiobjective-beam-design`](projects/pymoo-multiobjective-beam-design/), which uses pymoo NSGA-II to preserve the weight-versus-stiffness Pareto trade-off instead of collapsing it into one scalar objective.
 
 ## Default example
 
