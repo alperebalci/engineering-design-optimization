@@ -1,0 +1,29 @@
+name: Pymoo project CI
+
+on:
+  push:
+    paths:
+      - 'projects/pymoo-multiobjective-beam-design/**'
+      - '.github/workflows/pymoo-project.yml'
+  pull_request:
+    paths:
+      - 'projects/pymoo-multiobjective-beam-design/**'
+      - '.github/workflows/pymoo-project.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/pymoo-multiobjective-beam-design
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: python -m pip install -e '.[dev]'
+      - name: Compile
+        run: python -m compileall -q src
+      - name: Test
+        run: python -m pytest
