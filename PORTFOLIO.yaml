@@ -8,6 +8,7 @@ owner: jorsacademy
 projects:
   - highway-earthwork-optimization-dynamic-programming
   - madnlp-tapered-beam-design-julia
+  - pymoo-multiobjective-beam-design
 conventions:
   provenance_records: true
   reproducibility_expected: true
